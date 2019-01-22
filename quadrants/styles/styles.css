@@ -1,0 +1,46 @@
+html, body { 
+	height: 100%; 
+	padding: 0; 
+	margin: 0;
+	font-style: bold;
+}
+
+#div1, #div2, #div3, #div4{ 
+	width: 50%;
+	height: 50%;
+	float: left;
+	font-style: italic;
+}
+
+#div1 { 
+	background: #99ccff;
+	color: #b2d8ff;
+}
+
+#div2 { 
+	background: #746aff;
+	color: #8077f9;
+}
+
+#div3 { 
+	background: #6f89c4;
+	color: #7d96d1;
+}
+
+#div4 { 
+	background: #294c99;
+	color: #3659a5;
+}
+
+#text {
+	text-align: center;
+	width: 50%;
+	position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#text:hover {
+	color: red;
+}
