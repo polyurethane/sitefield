@@ -4,10 +4,15 @@ html{
 
 body{
 	font-family: 'IBM Plex Mono', monospace;
+	padding: 10%;
 }
 
 .link{
-	padding: 10%;
+	padding: 10px;
+}
+
+.link-dead{
+	opacity: 0;
 }
 
 a {
