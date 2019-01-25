@@ -13,6 +13,17 @@ body{
 
 }
 
+@media only screen 
+  and (min-device-width: 200px) 
+  and (max-device-width: 812px){
+
+  	.milk{
+  		padding: 10px;
+  		font-size: 25px;
+  	}
+
+}
+
 #blue{
 	color: blue;
 }
