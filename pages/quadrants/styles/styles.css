@@ -2,7 +2,6 @@ html, body {
 	height: 100%; 
 	padding: 0; 
 	margin: 0;
-	font-style: bold;
 }
 
 #div1, #div2, #div3, #div4{ 
@@ -18,8 +17,8 @@ html, body {
 }
 
 #div2 { 
-	background: #746aff;
-	color: #8077f9;
+	background: #7897ED;
+	color: #7A8EE2;
 }
 
 #div3 { 
@@ -33,6 +32,7 @@ html, body {
 }
 
 #text {
+	font-size: 16px;
 	text-align: center;
 	width: 50%;
 	position: relative;
@@ -42,7 +42,7 @@ html, body {
 }
 
 #text:hover {
-	color: red;
+	color: #F40010;
 }
 
 @media only screen 
@@ -50,7 +50,8 @@ html, body {
   and (max-device-width: 812px){
 
   	#text{
-  		color:red;
+  		font-size: 14px;
+  		color: #F40010;
   	}
 
 }
