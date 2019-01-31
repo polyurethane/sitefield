@@ -5,10 +5,10 @@ html{
 body{
         margin: 0;
         padding: 20px;
-        font-size: 80px;
+        font-size: 30px;
         font-style: italic;
         background: black;
-        color: #F0CAC5;
+        color: #E15840;
     }
 
 @media only screen 
@@ -21,6 +21,6 @@ body{
         font-size: 21px;
         font-style: italic;
         background: black;
-        color: #F0CAC5;
+        color: #E15840;
     }
 
