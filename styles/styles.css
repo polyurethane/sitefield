@@ -12,12 +12,19 @@ body{
   border-bottom: 0.5px dotted blue;
 }
 
+.link-elaborate{
+  padding: 50px;
+  font-size: 25px;
+  background-color: blue;
+  border-bottom: 0.5px dotted blue;
+}
+
 .link-dead{
 	opacity: 0;
 }
 
 a {
-    color: black;
+    color: pink;
     text-decoration: none;
     cursor: cell;
 }
